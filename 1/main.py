@@ -72,9 +72,13 @@ print(f"\nЕНЕРГИЯ В ЧАСТОТУ\n")
 print(f"Энергия: {energy_eV} эВ ")
 print(f"Частота:  {frequency_thz} ТГц")
 
+
+
+
 print("_"*100)
 M_San = 1.989E30
 R_s = (2* M_San * G)/c**2
 print(f"\n R_s : {R_s} ")
 M_bl_h = h/(R_s*c)
 print(f"\n M_bl_h: {M_bl_h} ")
+print(f"\nКонец програмы\n")
